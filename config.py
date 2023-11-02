@@ -1,11 +1,14 @@
 from os import getenv
 
 class Config(object):
-      API_HASH = getenv("API_HASH", "a1a06a18eb9153e9dbd447cfd5da2457")
-      API_ID = int(getenv("API_ID", "20389440"))
+      API_HASH = getenv("API_HASH", "418866e765a1494d4aaade9282c9470e")
+      API_ID = int(getenv("API_ID", "24155199"))
       AS_COPY = True if getenv("AS_COPY", True) == "`{file_name}`" else True
-      BOT_TOKEN = getenv("BOT_TOKEN", "6564513574:AAGDqUaEmeu0m4DjLDetNc4nooVTWYT7Fzo")
-      CHANNEL = list(x for x in getenv("CHANNEL_ID", "-1001722984461:-1001623633000").replace("\n", " ").split(' '))
+      BOT_TOKEN = getenv("BOT_TOKEN", "6736421654:AAHNHFh1DGZJq4wtephlq8mcYqZOtwbd1Rg")
+      CHANNEL = list(x for x in getenv("CHANNEL_ID", "-1001883240370:-1001973699665").replace("\n", " ").split(' '))
+      CHANNEL = list(x for x in getenv("CHANNEL_ID", "-1001883240370:-1001599078732").replace("\n", " ").split(' '))
+      CHANNEL = list(x for x in getenv("CHANNEL_ID", "-1001883240370:-1001904582024").replace("\n", " ").split(' '))
+      CHANNEL = list(x for x in getenv("CHANNEL_ID", "-1001883240370:-1001715214476").replace("\n", " ").split(' '))
 
 
 # Don't Remove Credit @VJ_Botz
