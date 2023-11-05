@@ -4,7 +4,7 @@ class Config(object):
       API_HASH = getenv("API_HASH", "")
       API_ID = int(getenv("API_ID", ""))
       BOT_TOKEN = getenv("BOT_TOKEN", "")
-      AS_COPY = True if getenv("AS_COPY", False) == "`{file_name}`" else False
+      AS_COPY = True if getenv("AS_COPY", True) == "`{file_name}`" else True
       CHANNEL = list(x for x in getenv("CHANNEL_ID", "").replace("\n", " ").split(' '))
       
 
